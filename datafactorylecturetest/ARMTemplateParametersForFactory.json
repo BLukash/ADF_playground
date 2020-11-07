@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorylecturetest"
+		},
+		"ls_keyvault01_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultlbds.vault.azure.net/"
+		},
+		"ls_blobnyctaxi_properties_typeProperties_connectionString_secretName": {
+			"value": "external"
+		}
+	}
+}
