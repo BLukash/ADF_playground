@@ -1,0 +1,17 @@
+{
+	"name": "ls_blobnyctaxi",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_keyvault01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "external"
+			}
+		}
+	}
+}
